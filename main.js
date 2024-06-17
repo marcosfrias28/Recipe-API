@@ -3,9 +3,11 @@ const jsonServer = require('json-server');
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
-const port = process.env.POST || 8080;
+app.use(cors());
+const port = process.env.PORT || 8080;
 
 // Set up JSON Server middleware
 const router = jsonServer.router('db.json');

@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "This project is a simple Express server that uses JSON Server for rapid API prototyping and Multer for handling file uploads. It provides a RESTful API for managing recipes, including creating new recipes and fetching existing ones.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node main.js"
@@ -12,6 +12,5 @@
     "express": "^4.19.2",
     "json-server": "^0.17.4",
     "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {}
+  }
 }
